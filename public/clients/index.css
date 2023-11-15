@@ -1,0 +1,135 @@
+/* Styles pour la navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.navbar-search button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Styles pour le contenu */
+.content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styles pour les postes */
+.postes-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Styles pour les postes */
+/* Styles pour les postes */
+.poste {
+    display: flex;
+    flex-direction: row; /* Alignement horizontal des éléments */
+    justify-content: space-between; /* Alignement des éléments à la fin */
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden; /* Empêcher le dépassement du contenu */
+}
+
+.poste h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Styles pour les détails du poste */
+.poste-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alignement à gauche */
+    justify-content: flex-end; /* Alignement au fond à droite */
+}
+
+.poste-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.poste-details p {
+    font-size: 16px;
+    margin-right: 10px; /* Espace à droite de la description */
+}
+
+
+.poste p {
+    font-size: 16px;
+    margin-right: 10px; /* Espace à droite de la description */
+}
+
+/* Styles pour le bouton "Postuler" */
+.postuler-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.postuler-button:hover {
+    background-color: #0056b3;
+}
